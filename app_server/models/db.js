@@ -2,8 +2,11 @@ var mongoose = require('mongoose');
 
 var dbURI = 'mongodb://localhost/workout';
 if(process.env.NODE_ENV === 'production'){
-    console.log('PRODUCTION CHOSEN')
-    dbURI = process.env.MONGODB_URI;
+   dbURI = 'mongodb://masterworkouter:letsW0rkOut@ds127864.mlab.com:27864/workout';
+   // dbURI = process.env.MONGOLAB_URI;
+   //MONGOLAB_URI is undefined for some reason- for future it should be changed tho
+    console.log('PRODUCTION CHOSEN '+ dbURI)
+    
 }
 
 mongoose.connect(dbURI);
