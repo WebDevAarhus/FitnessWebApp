@@ -1,0 +1,5 @@
+mongodb://masterworkouter:letsW0rkOut@ds127864.mlab.com:27864/workout
+username: masterworkouter
+pswd: letsW0rkOut
+livehost and port: ds127864.mlab.com:27864
+live database name: workout
