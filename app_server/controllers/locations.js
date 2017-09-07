@@ -41,7 +41,7 @@ module.exports.locationInfo = function(req, res){
                 rating: 5,
                 author: 'Sherlock H',
                 timestamp: '16 July 2013',
-                comment: 'What a great place. I can\'t say enough good things about it.'
+                comment: 'Whaaaaaat a great place. I can\'t say enough good things about it.'
             },
             {
                 rating: 3,
