@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 var dbURI = 'mongodb://localhost/workout';
 if(process.env.NODE_ENV === 'production'){
     console.log('PRODUCTION CHOSEN')
-    dbURI = process.env.MONGOLAB_URI;
+    dbURI = process.env.MONGODB_URI;
 }
 
 mongoose.connect(dbURI);
