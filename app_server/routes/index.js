@@ -3,8 +3,6 @@ var router = express.Router();
 var ctrlLocations = require('../controllers/locations');
 var ctrlOthers = require('../controllers/others');
 
-
-
 /*Locations pages*/
 router.get('/',ctrlLocations.homelist);
 router.get('/location', ctrlLocations.locationInfo);
